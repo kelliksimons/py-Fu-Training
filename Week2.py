@@ -5,6 +5,11 @@
 list = [1,5,3,4,7,8,2]
 
 # Collin's solution
-list.sort()
-list.reverse()
-print(list)
+rev_list = list.copy()
+rev_list.reverse()
+
+sorted_list = sorted(list, reverse=True)
+
+print(rev_list)
+print(sorted_list)
+
