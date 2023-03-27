@@ -4,4 +4,11 @@
 # Testing
 
 
-s
+# Collin's Solution
+def one_to_ten():
+    num = 10
+
+    print(','.join([str(i) for i in range(1, num + 1)]))
+    print(','.join([str(i) for i in range(1, num + 1, 2)]))
+    
+one_to_ten()
