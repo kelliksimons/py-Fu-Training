@@ -3,11 +3,11 @@
 # You should have 2 lines. 1 to 10 and 1,3,5,7,9
 # Testing
 
-numbers = [1,2,3,4,5,6,7,8,9,10]
+numbers = [1,2,3,4,5,6,7,8,9,10] # setting a variable for the numbers
 
-def yee():
+def yee():                       # giving a function that prints 1-10 and another line that skips every other number
     print(numbers)
     print(numbers[::2])
 
-yee()
+yee()                             # executing the function here
     
