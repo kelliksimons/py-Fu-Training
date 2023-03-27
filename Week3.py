@@ -5,9 +5,20 @@
 
 numbers = [1,2,3,4,5,6,7,8,9,10] # setting a variable for the numbers
 
+
 def yee():                       # giving a function that prints 1-10 and another line that skips every other number
     print(numbers)
     print(numbers[::2])
 
 yee()                             # executing the function here
     
+
+# Collin's Solution
+def one_to_ten():
+    num = 10
+
+    print(','.join([str(i) for i in range(1, num + 1)]))
+    print(','.join([str(i) for i in range(1, num + 1, 2)]))
+    
+one_to_ten()
+
